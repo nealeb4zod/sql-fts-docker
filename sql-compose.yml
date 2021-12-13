@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  sql:
+    container_name: sql-server-db
+    image: "nealeb4zod/mssql-fts:2019-ub-2004"
+    ports:
+      - 1433:1433
+    environment:
+      SA_PASSWORD: "Password123!"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
