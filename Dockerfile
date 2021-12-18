@@ -1,7 +1,7 @@
 ## Source: https://github.com/Microsoft/mssql-docker/blob/master/linux/preview/examples/mssql-agent-fts-ha-tools/Dockerfile
 
 # mssql-agent-fts-ha-tools
-# Maintainers: Microsoft Corporation (twright-msft on GitHub)
+# Maintainers:  Microsoft Corporation (twright-msft on GitHub)
 # GitRepo: https://github.com/Microsoft/mssql-docker
 
 # Base OS layer: Latest Ubuntu LTS
