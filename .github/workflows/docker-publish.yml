@@ -6,7 +6,6 @@ name: Docker
 # documentation.
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: "27 5 * * *"
   push:
@@ -20,7 +19,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: mssql-fts
+  IMAGE_NAME: nealeb4zod/mssql-fts
 
 jobs:
   build:
